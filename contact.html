@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <style>
-      
-    </style>
+
+        </style>
   </head>
   <body>
     <header>
@@ -19,15 +19,15 @@
               <div class="col-md-8 text-decoration-none p-3">
                 <nav class="nav nav-stacked nav-pills">
                   <a href="#" class="navbar-brand">
-                    <img class="rounded-circle" alt="blog logosu" src="https://cdn.shopifycloud.com/hatchful-web/assets/6fcc76cfd1c59f44d43a485167fb3139.png" style="width: 35px;height: 35px;">
+                    <img class="rounded-circle" src="https://cdn.shopifycloud.com/hatchful-web/assets/6fcc76cfd1c59f44d43a485167fb3139.png" style="width: 35px;height: 35px;">
                   </a>
                   <a class="nav-link" href="#">Anasayfa</a>
-                  <a class="nav-link" href="#">İletisim</a>
+                  <a class="nav-link" href="#">İletişim</a>
                 </nav>
               </div>
               <div class="col-md-4 p-3">
                 <form action="">
-                  <input type="text" name="" class="form-group transparent-input" placeholder="Arama Yapınız" alt="Arama Yapma">
+                  <input type="text" name="" class="transparent-input form-group" placeholder="Arama Yapınız" alt="Arama Yapma">
                   <button class="btn btn-outline-light d-inline-block"><i class="fa fa-search" aria-hidden="true"></i></button>
                 </form>
               </div>
@@ -45,41 +45,26 @@
       </div>
     </header>
     <div class="row">
-      <div class="col-md-9 col-sm-12">
-        <div class="card p-3">
-          <div class="card-body">
-            <a class="text-dark" href="post.html">
-            <h1 class="card-title">Title</h1>
-            <p class="card-text font-weight-normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt iste eaque dignissimos. Molestiae tenetur harum iusto. Aspernatur perspiciatis debitis beatae laudantium. Laborum, sit quis quo repellendus aliquam praesentium et optio.</p>
-            <p class="font-italic">03.03.0303</p>
-          </a>
-          </div>
+        <div class="mx-auto col-md-6 col-sm-9 col-xs-12 p-3">
+            <form  class="form-group">
+                <div class="form-group">
+                    <label for="text">Adınız</label>
+                    <input type="text"class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                    <small id="helpId" class="sr-only">Adınız ve Soyadınız</small>
+                </div>
+                <div class="form-group">
+                    <label for="">Soyadınız</label>
+                    <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                    <small id="helpId" class="sr-only">E-posta Adresiniz</small>
+                </div>
+                <div class="form-group">
+                    <label for="">Mesajınız</label>
+                    <textarea class="form-control" name="" id="" rows="3"></textarea>
+                    <small id="helpId" class="sr-only">Mesajınız</small>
+                </div>
+                <div class="form-group"><button type="submit" class="btn btn-primary">Gönder <i class="fa fa-paper-plane" aria-hidden="true"></i></button></div>
+            </form>
         </div>
-      </div>
-      <div class="col-md-3 d-none d-sm-block">
-        <table class="table">
-          <thead>
-          <th>Categories</th>
-          <tr>
-              <th>test</th>
-              <th>test</th>
-              <th>test</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td scope="row">Test</td>
-              <td>Test2</td>
-              <td>Test2</td>
-            </tr>
-            <tr>
-              <td >Test</td>
-              <td>Test2</td>
-              <td>Test2</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
     </div>
     <footer>
       <div class="mx-auto mt-3" style="max-width: 350px">
@@ -102,3 +87,4 @@
     <script src="assets/javascript/main.js"></script>
   </body>
 </html>
+      

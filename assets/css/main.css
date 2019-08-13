@@ -11,3 +11,14 @@ a[class*=nav-link]{
 .card{
     border: none !important
 }
+input.transparent-input{
+    background-color:transparent !important;
+    border:none !important;
+ }
+ .transparent-input::placeholder{
+     color: #FFFFFF;
+     font-weight: bold;
+ }
+ .transparent-input{
+     caret-color: #FFFFFF;
+ }
